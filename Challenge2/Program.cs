@@ -5,7 +5,7 @@
     private static bool IsValidAsciiRange(string input)
     {
         int val = int.Parse(input);
-        return val >= 65 && val <= 122;
+        return val >= 48 && val <= 122;
     }
 
     private static List<string> SplitLetters(string input)
