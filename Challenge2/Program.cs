@@ -39,7 +39,7 @@
         return string.Join("", letters);
     }
 
-    private static void Main(string[] args)
+    private static async Task Main(string[] args)
     {
         var words = ENCRYPTED.Split(' ');
         var decryptedWords = words.Select(DecryptWord);
